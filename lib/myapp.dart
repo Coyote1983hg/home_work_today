@@ -12,18 +12,18 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    print('initState() called');
+    debugPrint('initState() called');
   }
 
   @override
   void dispose() {
     super.dispose();
-    print('dispose() called');
+   debugPrint('dispose() called');
   }
 
   @override
   Widget build(BuildContext context) {
-    print('build() called');
+    debugPrint('build() called');
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
